@@ -1,0 +1,578 @@
+html{
+    
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    
+    background-image: radial-gradient(circle, #A4161A 26%, #161A1D 94%);
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #F5F3F4;
+}
+#container-logo{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor:pointer;
+}
+#container-logo #logo{
+    width: 15%;
+    padding: 2px 5px 5px 2px;
+
+}
+#container-icon-menu{
+    display: none
+}
+#container-logo #icon-menu{
+    width: 3em;
+}
+#container-logo h1{
+    color:#660708;
+    text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    align-items: center;
+    justify-content:center;
+    cursor:pointer;
+
+}
+nav li{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight:  600;
+    font-size: 1.5em;
+    margin-left:1rem;
+    list-style:none;
+    padding-right: 5px;
+    border-right: 2px solid red;
+}
+nav li a{
+    text-decoration: none;
+    color:#6D6875 ;
+    text-transform:uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.8s ease-in-out;
+}
+nav li a:hover{
+    color: #161A1D;
+    letter-spacing: 0.6em;
+}
+#container-main-inicio{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.container-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 5em;
+    width: 80%;
+    margin-top: 150px;
+    background-color:#f5f3f4a2;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+#container-img-perfil{
+    margin: 0;
+    padding: 0;
+    margin-bottom: -4px;
+}
+#container-titulo-saludo{
+    margin-top: 5em;
+    width: 50%;
+}
+#container-titulo-saludo h1{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.888);
+    
+    
+}
+#container-titulo-saludo p{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family:  sans-serif;
+    text-align: justify;
+    color: #660708;
+   
+}
+.container-inicio img{
+    width: 20em;
+    border-radius: 0% 5px 5px 0px;
+    border-left: 5px solid #660708;
+}
+.titulo-wallpaper{
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    color:#D3D3D3;
+    letter-spacing: 1.5em;
+}
+hr{
+    width: 30%;
+    margin-bottom: 3em;
+    background-color: #161A1D;
+    border-color: #161A1D ;
+}
+.container-wallpaper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color:#f5f3f4a2;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 150px;
+    
+}
+.container-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30em; 
+    column-gap: 5px;
+    justify-content: center; 
+    justify-items: center;
+    padding-bottom: 100px;
+}
+.container-flex img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: -6px 15.5px 11.5px -2px #f5f3f4;
+}
+.container-wallpaper .container-frase{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10em;
+    column-gap: 10px;
+    justify-content: center; 
+    
+    padding: 20px;
+
+}
+.container-wallpaper .container-frase div{
+    border-radius: 0px 5px 0px 5px;
+    padding: 5px;
+    background-color: #0B090A;
+    margin-bottom: 10px;
+    color: #F5F3F4;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.8em;
+    text-align: justify;
+    
+}
+#container-video-click{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-wallpaper.video{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10em;
+    padding-bottom: 5em;
+}
+.container-wallpaper.video iframe{
+    margin-left: 20px;
+
+}
+.container-wallpaper.video hr{
+    width:100%;
+}
+iframe{
+    width:400px ;
+    height: 300px;
+    border-radius: 15px;
+}
+#svg{
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    position:static;
+    bottom: 0px;
+    background-color: #161A1D;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+footer #container-footer #container-icon-footer{
+    border-bottom: 1px solid #B1A7A6;
+    display: flex;
+    justify-content:space-between;
+}
+.container-sobre-mi{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+.container-sobremi-firt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    background-color: #F5F3F4;
+    border-radius: 5px;
+    padding-top: 50px;
+    box-shadow: -1.5px -8px 16.5px -3.5px #161a1d;
+}
+h5{
+    border-bottom: 2px solid gray;
+    box-shadow: -1.5px 9.5px 3.5px -3.5px #660708;
+    border-radius: 5px;
+}
+.titulo-perfil{
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    
+}
+.container-sobremi-firt p{
+    text-align: justify;
+    margin: 1em 5em;
+    font-family:sans-serif;
+    font-weight: 400;
+    color:#161A1D;
+    
+}
+.container-sobremi-firt  div{
+    margin-bottom: 8em;
+}
+.container-sobremi-firt img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: -1.5px 8.5px 16.5px -3.5px #66070980;
+}
+.container-img-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container-footer p{
+    color:#D3D3D3;
+    font-family: sans-serif;
+}
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.container-contacto .container-contacto-firts{
+    background-color:#F5F3F4;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#img-katana{
+    width: 100%;
+    border-bottom: 8px solid #660708;
+}
+#container-icon-ff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 125px auto;
+ 
+}
+#container-icon-ff p{
+    font-size: 2em;
+    font-family:"New Amsterdam", sans-serif;
+}
+#container-icon-contacto{
+    background-color: #0B090A;
+    border-radius: 5em 0em 5em 0em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#container-icon-contacto a{
+    text-align: center;
+    border-bottom: 2px solid #D3D3D3;
+ 
+}
+#container-icon-contacto img{
+    width: 25%;
+    height: 200px;
+    
+}
+.container-contacto-firts img{
+    width: 100%;
+    height: 300px;
+}
+.container-contacto-firts #container-icon{
+   display: flex;
+   margin-top: 8em;
+   justify-content: center;
+   width: 80%;
+   margin-left:6em;
+   flex-direction: column;
+   align-items: center;
+}
+#perfil-contacto{
+position: absolute;
+display: flex;
+text-align: center;
+margin-top: 10em;
+justify-content: center;
+}
+#perfil-contacto img{
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0px auto;
+    padding: 0;
+    border: 5px solid #660708;
+}
+@media (max-width: 1025px) {
+    #container-icon-menu{
+        display:block
+    }
+    header{
+        flex-direction:column;
+        padding-top: 1em;
+        z-index: 1;
+    }
+    #container-logo{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 10% 82% 8%;
+        
+    }
+    #container-logo #logo{
+        width: 60%;
+        margin-left: 1em;
+        padding: 0px;
+    
+    }
+    #container-logo h1{
+        font-size: 1.5em;
+    }
+    #container-icon-menu img{
+        background-color: #f0e7e6;
+        border-radius: 10%;
+        cursor: pointer;
+        border: 1px solid gray;
+    }
+    nav{
+        background-color: #F5F3F4;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        font-size: 0.80em;
+        transition: top 1s ease;
+        z-index: -1;
+    }
+    nav li{
+        padding: 5px 0px;
+    }
+    #container-titulo-saludo h1{
+        font-size: 1.7em;
+    }
+    #container-titulo-saludo p{
+        font-size: 1.2em;
+    }
+    .container-inicio img{
+        width: 15em;
+    }
+    .container-flex{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 30em 30em; 
+    }
+    hr{
+        width: 50%;
+    }
+    .container-wallpaper .container-frase{
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    #container-video-click{
+        flex-direction: column;
+    }
+  
+    .container-sobremi-firt img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow: -1.5px 8.5px 16.5px -3.5px #66070980;
+    }
+    .container-sobremi-firt p{
+        margin: 1em 1em;
+    }
+    #perfil-contacto{
+        margin-top: 14em;
+    }
+    #container-icon-ff{
+        margin: 50px auto;
+    }
+    #perfil-contacto img{
+        padding: 5px;
+        width: 25%;
+        height: 50%;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+        border: 5px solid #660708;
+    }
+    #perfil-contacto{
+        width: 50%;
+    }
+    
+  }
+  
+  @media (max-width: 700px) {
+    header{
+        padding-top: 0.5em;
+    }
+    #container-logo{
+        grid-template-columns: 15% 70% 15%;
+        
+    }
+    #container-logo #logo{
+        margin-left: 0.5em;
+    }
+    #container-logo h1{
+        font-size: 1em;
+        text-align: center;
+    }
+    #container-icon-menu{
+        text-align: center;
+    }
+    #container-icon-menu img{
+        font-size:0.7em;
+    }
+    nav{
+        top:20px;
+    }
+    nav li{
+        padding-top:30px;
+        font-size: 1em;
+        border:none;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    #container-titulo-saludo h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #container-titulo-saludo p{
+        font-size: 1em;
+    }
+    .container-inicio img{
+        width: 10em;
+    }
+    .titulo-wallpaper{
+        font-size: 0.8em;
+    }
+    hr{
+        text-align: center;
+    }
+    .container-flex{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25em 25em 25em 25em; 
+    }
+    .container-wallpaper .container-frase{
+        grid-template-columns: 1fr 1fr; 
+    }
+    iframe{
+        width: 300px;
+    }
+    .container-sobremi-firt{
+        grid-template-columns: 1fr;
+    }
+    .container-sobremi-firt  div{
+        margin-bottom: 0em;
+    }
+    .container-contacto-firts #container-icon-ff{
+        width: 100%;
+     }
+    #container-icon-contacto{
+        width: 100%;
+    }
+    .container-contacto .container-contacto-firts{
+        width: 80%;
+    }
+    #container-icon-contacto img{
+        width: 10%;
+        height: 100px;
+        
+    }
+    #perfil-contacto{
+        width: 80%;
+    }
+  }
+  @media (max-width: 600px) {
+    #container-titulo-saludo{
+        margin-top: 0.2em;
+        width: 50%;
+    }
+    .container-inicio{
+        width: 70%;
+    }
+    .container-wallpaper .container-frase{
+        grid-template-columns: 1fr; 
+    }
+    .container-inicio{
+        padding-left: 2em;
+        text-align: center;
+    }
+    #container-titulo-saludo h1{
+        font-size: 1.3em;
+    }
+    #container-titulo-saludo p{
+        font-size: 0.9em;
+    }
+    .container-sobremi-firt img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .container-inicio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }.container-inicio{
+        padding-left: 0px;
+    }
+    iframe{
+        width: 250px;
+    }
+    h2{
+        text-align: center;
+    }
+    .container-flex{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15em 15em 15em 15em; 
+    }
+
+}
+  
